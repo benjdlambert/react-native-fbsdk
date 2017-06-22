@@ -78,7 +78,6 @@ SendButton.defaultProps = {
 const RCTFBSendButton = requireNativeComponent(
   'RCTFBSendButton',
   SendButton,
-  SendButton,
   { 
     nativeOnly: {
       onChange: true,
